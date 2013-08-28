@@ -1,0 +1,49 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1271" measuredH="681" mockupW="710" mockupH="594">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="561" y="87" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="666" y="198" w="-1" h="-1" measuredW="86" measuredH="21" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Get%20Messages</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::List" x="587" y="219" w="230" h="359" measuredW="100" measuredH="216" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>*%20I%20like%20you%20catagory%0A%09I%20am%20just%20thing%20about%20you.%20%0A%20%0A%20%0A*%20I%20like%20you%20catagory%0A%09Hey%20babe%2C%20I%20was%20just%20thinking%20about%20you%0A%20%0A%20%0A*%20I%20love%20you%20catagory%0A%09I%20love%20you%20so%20much</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="643" y="268" w="77" h="27" measuredW="66" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>add%20.99</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="643" y="354" w="77" h="27" measuredW="66" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>add%20.99</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="643" y="442" w="77" h="27" measuredW="66" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>add%20.99</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::StickyNote" x="932" y="153" w="317" h="222" measuredW="109" measuredH="123" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Once%20the%20user%20selects%20the%20messages%20they%20want%20to%20buy%2C%20they%20user%20will%20click%20checkout.%20%20Once%20checkout%20is%20clicked%20the%20user%20will%20authorize%20the%20purchase%20through%20the%20store%20%28google%20play%2C%20app%20store%2C%20amazon%2C%20etc%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="647" y="522" w="-1" h="-1" measuredW="77" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Checkout</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::StickyNote" x="956" y="448" w="315" h="233" measuredW="109" measuredH="123" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Note%3A%20this%20information%20needs%20to%20be%20saved%20so%20if%20the%20user%20installs%20the%20app%20on%20a%20new%20device%2C%20or%20restores%20an%20old%20one%2C%20they%20still%20have%20their%20purchased%20messages.%20</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

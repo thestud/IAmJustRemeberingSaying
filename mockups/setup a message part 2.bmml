@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1274" measuredH="680" mockupW="742" mockupH="573">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1242" measuredH="680" mockupW="710" mockupH="573">
   <controls>
     <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="532" y="107" w="282" h="573" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
@@ -15,20 +15,25 @@
         <text>3.%20Pick%20When%20to%20send%20the%20message</text>
       </controlProperties>
     </control>
-    <control controlID="3" controlTypeID="com.balsamiq.mockups::iPhonePicker" x="560" y="264" w="-1" h="-1" measuredW="227" measuredH="160" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::iPhonePicker" x="560" y="298" w="-1" h="-1" measuredW="227" measuredH="160" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Random%20Daily%20between%208%20-%208%0ARandom%20Weekly%20between%208%20-%208%0ARandom%20Weekend%2010%20-%202am%0ASpecific%20Day%20Time</text>
+        <text>Random%20Daily%20between%208%20-%208%0ARandom%20Weekly%20between%208%20-%208%0ARandom%20Weekend%2010%20-%202am</text>
       </controlProperties>
     </control>
-    <control controlID="4" controlTypeID="com.balsamiq.mockups::StickyNote" x="1029" y="341" w="245" h="189" measuredW="109" measuredH="123" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::StickyNote" x="1009" y="383" w="214" h="138" measuredW="109" measuredH="123" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <size>13</size>
-        <text>Random%20Daily%20between%208%20-%208%0ARandom%20Weekly%20between%208%20-%208%0ARandom%20Weekend%2010%20-%202am%0ASpecific%20Day%20Time</text>
+        <text>Random%20Daily%20between%208%20-%208%0ARandom%20Weekly%20between%208%20-%208%0ARandom%20Weekend%2010%20-%202am</text>
       </controlProperties>
     </control>
     <control controlID="5" controlTypeID="com.balsamiq.mockups::Arrow" x="844" y="343" w="-1" h="-1" measuredW="150" measuredH="100" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <text/>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="1030" y="586" w="-1" h="-1" measuredW="212" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>*%20I%20have%20taken%20out%20the%20Specific%20Time</text>
       </controlProperties>
     </control>
   </controls>
