@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
+        xmlns:s="library://ns.adobe.com/flex/spark" 
+        title="SetupAMessage" 
+        creationComplete="onCreationComplete();">
+  <fx:Declarations>
+    <!-- Place non-visual elements (e.g., services, value objects) here -->
+  </fx:Declarations>
+  <fx:Script>
+    <![CDATA[
+      
+      private function onCreationComplete():void
+      {
+        var theHeight:Number = this.navigator.height; 
+        
+        messageKind.x = this.width * .23; 
+        messageKind.y = theHeight * .3; 
+        
+        messageKind.width = this.width * .6;
+        messageKind.height = theHeight * .3; 
+        
+        nextButton.x = this.width * .23;
+        nextButton.y = theHeight * .7;
+      }
+      
+      private function setAMessagePart2():void
+      {
+        navigator.pushView(SetupAMessageTwo); 
+      }
+      
+    ]]>
+  </fx:Script>
+  <s:Image source="@Embed('../graphics/prototype/Setup-A-Message.png')" width="{this.width}" height="{this.height}"  />
+  
+  <s:SpinnerListContainer id="messageKind">
+    <s:SpinnerList id="peopleList" width="200" labelField="name">
+      <s:ArrayList>
+        <fx:Object name="I Like You" companyID="14266"/>
+        <fx:Object name="I Love You" companyID="14266"/>
+        <fx:Object name="I Want You" companyID="11233"/>
+      </s:ArrayList>                        
+    </s:SpinnerList>
+  </s:SpinnerListContainer>
+  
+  <s:Button id="nextButton" label="Next" click="setAMessagePart2();" />
+  
+</s:View>

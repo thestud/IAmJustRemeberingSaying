@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
+        xmlns:s="library://ns.adobe.com/flex/spark" 
+        title="SetupAMessageTwo" 
+        creationComplete="onCreationComplete();">
+  <fx:Declarations>
+    <!-- Place non-visual elements (e.g., services, value objects) here -->
+  </fx:Declarations>
+  <fx:Script>
+    <![CDATA[
+      
+      private function onCreationComplete():void
+      {
+        var theHeight:Number = this.navigator.height; 
+        
+        whenMessage.x = this.width * .23; 
+        whenMessage.y = theHeight * .3; 
+        
+        whenMessage.width = this.width * .6;
+        whenMessage.height = theHeight * .3; 
+        
+        finishButton.x = this.width * .23;
+        finishButton.y = theHeight * .7;
+      }
+      
+      private function onBack():void
+      {
+        navigator.pushView(SetupAMessage);
+      }
+      
+      private function onFinish():void
+      {
+        navigator.pushView(RememberHomeView); 
+      }
+      
+    ]]>
+  </fx:Script>
+  <s:navigationContent>
+    <s:Button label="Back" click="onBack();"/>
+  </s:navigationContent>
+  <s:Image source="@Embed('../graphics/prototype/Setup-A-Message_Part-2.png')" width="{this.width}" height="{this.height}"  />
+  
+  <s:SpinnerListContainer id="whenMessage">
+    <s:SpinnerList id="peopleList" width="200" labelField="name" fontSize="10">
+      <s:ArrayList>
+        <fx:Object name="Random Daily between 8 - 8" companyID="14266"/>
+        <fx:Object name="Random Weekly between 8 - 8" companyID="14266"/>
+        <fx:Object name="Random Weekend 10 - 2am" companyID="11233"/>
+      </s:ArrayList>                        
+    </s:SpinnerList>
+  </s:SpinnerListContainer>
+  
+  <s:Button id="finishButton" label="Finish" click="onFinish();" />
+  
+  
+</s:View>

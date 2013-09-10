@@ -6,4 +6,7 @@
   <fx:Declarations>
     <!-- Place non-visual elements (e.g., services, value objects) here -->
   </fx:Declarations>
+  <s:navigationContent>
+    <s:Button label="Home" click="navigator.popToFirstView();"/>
+  </s:navigationContent>
 </s:ViewNavigatorApplication>

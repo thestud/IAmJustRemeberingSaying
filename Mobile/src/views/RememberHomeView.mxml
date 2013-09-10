@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
-        xmlns:s="library://ns.adobe.com/flex/spark" actionBarVisible="false" >
+        xmlns:s="library://ns.adobe.com/flex/spark" 
+        actionBarVisible="false" 
+        creationComplete="onCreationComplete();" 
+         >
   <fx:Declarations>
     <!-- Place non-visual elements (e.g., services, value objects) here -->
   </fx:Declarations>
+  <fx:Script>
+    <![CDATA[
+      
+      private function onCreationComplete():void
+      {        
+        var theHeight:Number = this.navigator.height; 
+        
+        
+        setupAMessageButton.x = this.width * .27; 
+        setupAMessageButton.y = theHeight * .57; 
+        setupAMessageButton.width = this.width * .5; 
+        setupAMessageButton.height = theHeight * .08;
+        
+        messageButton.x = this.width * .27;
+        messageButton.y = theHeight * .69; 
+        messageButton.width = this.width * .5; 
+        messageButton.height = theHeight * .08;
+        
+        getMoreMessagesButton.x = this.width * .27;
+        getMoreMessagesButton.y = theHeight * .82; 
+        getMoreMessagesButton.width = this.width * .5; 
+        getMoreMessagesButton.height = theHeight * .08;
+        
+      }
+      
+      private function getMoreMessages():void
+      {
+        navigator.pushView(GetMoreMessages); 
+      }
+      
+      private function goMessages():void
+      {
+        navigator.pushView(Messages); 
+      }
+      
+      private function goSetupMessage():void
+      {
+        navigator.pushView(SetupAMessage); 
+      }
+      
+      
+      
+    ]]>
+  </fx:Script>
+  <s:Image source="@Embed('../graphics/prototype/Start_Screen.png')" width="{this.width}" height="{this.height}"  />
+  <s:Button id="setupAMessageButton" label="Setup A Message" click="goSetupMessage();" />
+  <s:Button id="messageButton" label="Messages" click="goMessages();" />
+  <s:Button id="getMoreMessagesButton" label="Get More Messages" click="getMoreMessages();" fontSize="10" />
 </s:View>
