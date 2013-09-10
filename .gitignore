@@ -5,3 +5,6 @@ Mobile/.project
 .DS_Store
 Mobile/.DS_Store
 Mobile/Export/
+Mobile/.actionScriptProperties
+Mobile/bin-debug/Remember-app.xml
+Mobile/bin-debug/Remember.swf
