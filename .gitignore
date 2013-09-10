@@ -1,7 +1,7 @@
-/Mobile/bin-debug/*
-/Mobile/.actionScriptProperties
-/Mobile/.flexProperties
-/Mobile/.project
+Mobile/bin-debug/*
+Mobile/.actionScriptProperties
+Mobile/.flexProperties
+Mobile/.project
 .DS_Store
-/Mobile/.DS_Store
-/Export/
+Mobile/.DS_Store
+Mobile/Export/
